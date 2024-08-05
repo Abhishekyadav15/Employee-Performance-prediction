@@ -12,3 +12,19 @@ Organizations can optimize resource allocation by using machine learning predict
 
 # Productivity Prediction of Garment Employees : 
 With the help of this dataset, we will predict the performance of employees based on the various parameter given in the dataset.
+
+# Visualizing and analyzing the data
+As the dataset is downloaded. Let us read and understand the data properly with the help of some visualization techniques and some analysing techniques.
+Note: There are n number of techniques for understanding the data. But here we have used some of it. In an additional way, you can use multiple techniques.
+### Importing the libraries
+Import the necessary libraries such as pandas , matplotlib, seaborn , sklearn etc.
+
+### Read the Dataset
+Our dataset format might be in .csv, excel files, .txt, .json, etc. We can read the dataset with the help of pandas.
+In pandas we have a function called read_csv() to read the dataset. As a parameter we have to give the directory of csv file.
+
+### Correlation analysis
+In simple words, A correlation matrix is simply a table which displays the correlation coefficients for different variables. The matrix depicts the correlation between all the possible pairs of values in a table. It is a powerful tool to summarize a large dataset and to identify and visualize patterns in the given data.
+### Descriptive analysis
+Descriptive analysis is to study the basic features of data with the statistical process. Here pandas has a worthy function called describe. With this describe function we can understand the unique, top and frequent values of categorical features. And we can find mean, std, min, max and percentile values of continuous features.
+
