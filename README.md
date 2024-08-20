@@ -53,3 +53,18 @@ Now let’s split the Dataset into train and test sets. First split the dataset 
 Here X and y variables are created. On X variable, data is passed with dropping the target variable. And on y target variable is passed. For splitting training and testing data we are using train_test_split() function from sklearn. As parameters, we are passing X, y, test_size, random_state.
 
 
+# Model Building
+Now our data is cleaned and it’s time to build the model. We can train our data on different algorithms. For this project we are applying three Regression algorithms. The best model is saved based on its performance.
+
+## Linear Regression model
+Linear Regression has been initialized with the name lr. Then predictions are taken from x_test given to a variable named pred_test. After that Mean absolute error, mean squared error & r2_scrores are obtained.
+
+## Random Forest model
+Random Forest has been initialized with the name rf. Then predictions are taken from x_test given to a variable named pred. After that Mean absolute error, mean squared error & r2_scrores are obtained.
+
+## Xgboost model
+XGBoost has been initialized with the name model_xgb. Then predictions are taken from x_test given to a variable named pred3. After that Mean absolute error, mean squared error & r2_scrores are obtained
+
+## Compare the model
+For comparing the above three models MSE, MAE & r2_scroes are used. 
+After calling the function, the results of models are displayed as output. From the three model xgboost is performing well. 
