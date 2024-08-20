@@ -28,3 +28,28 @@ In simple words, A correlation matrix is simply a table which displays the corre
 ### Descriptive analysis
 Descriptive analysis is to study the basic features of data with the statistical process. Here pandas has a worthy function called describe. With this describe function we can understand the unique, top and frequent values of categorical features. And we can find mean, std, min, max and percentile values of continuous features.
 
+
+# Data Pre-processing
+As we have understood how the data is lets pre-process the collected data.
+
+The download data set is not suitable for training the machine learning model as it might have so much of randomness so we need to clean the dataset properly in order to fetch good results. This activity includes the following steps.
+
+### Handling missing values
+For checking the null values, data.isnull() function is used. To sum those null values we use .sum() function to it. From the below image we found that in our dataset there is one feature which has high number of null values. So we drop that feature.
+
+
+### Handling Date & department column
+Here what we are doing is converting the date column into datetime format.
+Then converting date column to month (month index) & transferring the values into a new column called month. As we have the month column now we don’t need date, so we will drop it.
+
+
+### Handling categorical data
+As we can see our dataset has categorical data we must convert the categorical data to integer encoding or binary encoding.
+To convert the categorical features into numerical features we use encoding techniques. There are several techniques but in our project we are using LabelEncoder.
+
+
+### Splitting dataset into training and test set
+Now let’s split the Dataset into train and test sets. First split the dataset into x and y and then split the data set. After that x is converted into array format then passed into a new variable called X.
+Here X and y variables are created. On X variable, data is passed with dropping the target variable. And on y target variable is passed. For splitting training and testing data we are using train_test_split() function from sklearn. As parameters, we are passing X, y, test_size, random_state.
+
+
