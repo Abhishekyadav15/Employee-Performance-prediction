@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Predict - Employee Productivity Prediction</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("{{ url_for('static', filename='ev.jpeg') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('predict') }}">Predict</a>
+    </nav>
+    <div  style="margin: auto,auto; padding-left: 20%;">
+        <h1 style="color: aliceblue;">Enter the Details to Predict Productivity</h1>
+        <form action="{{ url_for('submit') }}" method="post">
+            <input type="text" name="quarter" placeholder="Quarter">
+            <input type="text" name="department" placeholder="Department">
+            <input type="text" name="team" placeholder="Team">
+            <input type="text" name="day" placeholder="Day">
+            <input type="text" name="targeted_productivity" placeholder="Targeted Productivity">
+            <input type="text" name="smv" placeholder="SMV">
+            <input type="text" name="incentive" placeholder="Incentive">
+            <input type="text" name="over_time" placeholder="Over Time">
+            <input type="text" name="idle_time" placeholder="Idle Time">
+            <input type="text" name="idle_men" placeholder="Idle Men">
+            <input type="text" name="no_of_style_change" placeholder="Number of Style Changes">
+            <input type="text" name="no_of_workers" placeholder="Number of Workers">
+            <input type="text" name="month" placeholder="Month">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+   
+</body>
+</html>

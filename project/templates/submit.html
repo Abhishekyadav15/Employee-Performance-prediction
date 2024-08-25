@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Prediction Result - Employee Productivity Prediction</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("{{ url_for('static', filename='ev.jpeg') }}");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('predict') }}">Predict</a>
+    </nav>
+    <div style="margin: auto,auto;padding-top: 17%; text-align: center;">
+        <h1 style="color: antiquewhite;">Prediction Result</h1>
+    <h3 style="color: white;">Based on the given input, the employee is {{ prediction }} productive.</h3>
+    </div>
+    
+</body>
+</html>
