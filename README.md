@@ -97,7 +97,9 @@ we are routing our app to pred () function. This function retrieves all the valu
 # Running the application
 
 we run the application using following commond 
-. set flask_app = app.py
-. flask run
+
+set flask_app = app.py
+
+ flask run
 
 
