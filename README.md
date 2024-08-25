@@ -12,7 +12,8 @@ Organizations can optimize resource allocation by using machine learning predict
 
 # project structure
 	
- ```project_folder/
+ ```
+project_folder/
 ├── app.py
 ├── model.pkl
 ├── requirements.txt
