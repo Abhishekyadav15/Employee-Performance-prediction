@@ -118,4 +118,23 @@ set flask_app = app.py
 
  flask run
 
+# input and output
+![Screenshot (307)](https://github.com/user-attachments/assets/422f70a0-0296-4d83-b563-8dab64baf4dd)
+![Screenshot (308)](https://github.com/user-attachments/assets/d86bc7ff-3c76-4109-b2bc-0df236690a26)
+![Screenshot (309)](https://github.com/user-attachments/assets/0ccb11ef-1df3-4a1b-b598-4d2ba3e60248)
+
+
+
+
+
+ #  google cloud skillboost course badges
+
+ ![Screenshot (306)](https://github.com/user-attachments/assets/b613657e-1284-4cd0-87ac-418d04271c46)
+![Screenshot_20-8-2024_14417_www cloudskillsboost google](https://github.com/user-attachments/assets/1928451a-a9f0-4054-b2ca-2c12204d80ee)
+![Screenshot_20-8-2024_143935_www cloudskillsboost google](https://github.com/user-attachments/assets/4abe3cdc-5d3f-404c-8186-66cb637418b2)
+
+
+
+ 
+
 
