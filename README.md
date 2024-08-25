@@ -129,6 +129,14 @@ set flask_app = app.py
 
  #  google cloud skillboost course badges
 
+## profile link:   https://www.cloudskillsboost.google/public_profiles/913b4f21-b803-478b-b1be-7774a68b7086
+
+
+
+
+
+
+
  ![Screenshot (306)](https://github.com/user-attachments/assets/b613657e-1284-4cd0-87ac-418d04271c46)
 ![Screenshot_20-8-2024_14417_www cloudskillsboost google](https://github.com/user-attachments/assets/1928451a-a9f0-4054-b2ca-2c12204d80ee)
 ![Screenshot_20-8-2024_143935_www cloudskillsboost google](https://github.com/user-attachments/assets/4abe3cdc-5d3f-404c-8186-66cb637418b2)
