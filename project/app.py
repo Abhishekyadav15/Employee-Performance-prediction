@@ -33,7 +33,7 @@ def submit():
     else:
         prediction="medium"    
     
-    # You can pass the prediction result to the submit.html page
+   
     return render_template('submit.html', prediction=prediction)
 
 if __name__ == '__main__':
