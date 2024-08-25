@@ -10,6 +10,22 @@ Managers and team leaders can leverage the predictions to identify areas where e
 Scenario 3: Resource Allocation
 Organizations can optimize resource allocation by using machine learning predictions to match employees with projects or tasks that align with their strengths and capabilities. This ensures efficient utilization of talent, improves project outcomes, and enhances overall organizational performance.
 
+# project structure
+	
+ ```project_folder/
+├── app.py
+├── model.pkl
+├── requirements.txt
+├── templates/
+│   ├── home.html
+│   ├── predict.html
+│   └── result.html
+└── static/
+    ├── style.css
+    └── images.png
+```
+
+
 # Productivity Prediction of Garment Employees : 
 With the help of this dataset, we will predict the performance of employees based on the various parameter given in the dataset.
 
