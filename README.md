@@ -17,7 +17,7 @@ With the help of this dataset, we will predict the performance of employees base
 As the dataset is downloaded. Let us read and understand the data properly with the help of some visualization techniques and some analysing techniques.
 Note: There are n number of techniques for understanding the data. But here we have used some of it. In an additional way, you can use multiple techniques.
 ### Importing the libraries
-Import the necessary libraries such as pandas , matplotlib, seaborn , sklearn etc.
+Import the necessary libraries such as pandas , matplotlib, seaborn , sklearn ,xgboost,pickle,labelEncoder.
 
 ### Read the Dataset
 Our dataset format might be in .csv, excel files, .txt, .json, etc. We can read the dataset with the help of pandas.
@@ -67,4 +67,37 @@ XGBoost has been initialized with the name model_xgb. Then predictions are taken
 
 ## Compare the model
 For comparing the above three models MSE, MAE & r2_scroes are used. 
-After calling the function, the results of models are displayed as output. From the three model xgboost is performing well. 
+After calling the function, the results of models are displayed as output. among the three model xgboost is performing well. 
+
+# Application building
+In this section, we will be building a web application that is integrated to the model we built. A UI is provided for the uses where he has to enter the values for predictions. The enter values are given to the saved model and prediction is showcased on the UI.
+
+This section has the following tasks
+Building HTML Pages
+Building server side script
+
+## Building Html Pages
+
+### For this project create three HTML files namely
+
+about.html
+home.html
+predict.html
+submit.html
+
+## Build Python code
+Load the saved model. Importing flask module in the project is mandatory. An object of Flask class is our WSGI application. Flask constructor takes the name of the current module (__name__) as argument.
+
+we will be using declared constructor to route to the HTML page which we have created earlier.
+
+when the home page of the web server is opened in browser, the html page will be rendered. Whenever you enter the values from the html page the values can be retrieved using POST Method.
+
+we are routing our app to pred () function. This function retrieves all the values from the HTML page using Post request. That is stored in an array. This array is passed to the model.predict() function. This function returns the prediction. And this prediction value will rendered to the text that we have mentioned in the home.html page earlier.
+
+# Running the application
+
+we run the application using following commond 
+. set flask_app = app.py
+. flask run
+
+
