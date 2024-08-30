@@ -26,10 +26,10 @@
     <div  style="margin: auto,auto; padding-left: 20%;">
         <h1 style="color: aliceblue;">Enter the Details to Predict Productivity</h1>
         <form action="{{ url_for('submit') }}" method="post">
-            <input type="text" name="quarter" placeholder="Quarter">
-            <input type="text" name="department" placeholder="Department">
+            <input type="text" name="quarter" placeholder="Quarter (0,1,2,3,4)">
+            <input type="text" name="department" placeholder="Department(0:Sweing, 1: finishing)">
             <input type="text" name="team" placeholder="Team">
-            <input type="text" name="day" placeholder="Day">
+            <input type="text" name="day" placeholder="Day [0-6]">
             <input type="text" name="targeted_productivity" placeholder="Targeted Productivity">
             <input type="text" name="smv" placeholder="SMV">
             <input type="text" name="incentive" placeholder="Incentive">
